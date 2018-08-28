@@ -1,4 +1,4 @@
-def isComplete(blanks):
+def isComplete(blanks): #function to check if the puzzle is completed
 
     complete = True
     for item in blanks:
@@ -8,7 +8,7 @@ def isComplete(blanks):
     return complete
 
 
-def isValid(grid,blanks):
+def isValid(grid,blanks): #function that checks if the current state is valid
 
     check_grid = grid
     for blank in blanks:
@@ -37,7 +37,7 @@ def isValid(grid,blanks):
     return True
 
 
-def duplicatesExist(row):
+def duplicatesExist(row): #function that checks if duplicates exist in a list
 
     lis = sorted(row)
     
@@ -51,7 +51,7 @@ def duplicatesExist(row):
     return False
 
 
-def showGrid(grid,blanks):
+def showGrid(grid,blanks): #function that prints out a puzzle grid to the console
     
     current_grid = grid
     for blank in blanks:
@@ -67,7 +67,7 @@ def showGrid(grid,blanks):
         print("|")
         print("+-+-+-+-+-+-+-+-+-+")
 
-grid = [[2,0,3,0,8,0,0,0,0],
+grid = [[2,0,3,0,8,0,0,0,0], #puzzle to be solved where a zero represents a blank
         [0,6,0,3,2,0,0,0,0],
         [5,0,0,0,0,6,0,0,0],
         [0,8,0,0,1,4,9,0,0],
@@ -113,7 +113,7 @@ while isComplete(blanks)==False:
         #print("back")
           
 print("complete:")
-showGrid(grid,blanks)
+showGrid(grid,blanks) #print the completed puzzlwe grid
         
         
         
