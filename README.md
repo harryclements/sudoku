@@ -1,3 +1,5 @@
-# sudoku
+# Sudoku Solver
 
-A program that uses a brute force backtracking approach to find the solution to 9x9 sudoku puzzles in a matter of seconds.
+## Outline
+
+A 9x9 Sudoku Solver that makes use of a brute force backtracking algorithm and produces a solution in a matter of seconds.
