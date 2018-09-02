@@ -10,7 +10,7 @@ The following functions are used:
 
 ### _isComplete_
 
-Checks if the puzzle is complete and returns this as a Boolean.
+Checks if the puzzle is complete and returns this as a Boolean. This is used to determine when the puzzle has been successfully solved and the main algoirhtm continues to iterate until this condition is met.
 
 ### _isValid_
 
