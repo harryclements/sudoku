@@ -26,7 +26,8 @@ Prints out a given puzzle grid to the console. This functionns prints out the in
 
 ## Algorithm
 
-The algorithm uses an iterative backtracking approach that cycles through potential solutions until the puzzle reaches a state where it is valid and fully completed. Starting with the first unfilled square, the value is incremented and the _isValid_ function checks that this state is allowed. If the state is illegal then the value is incremented again until it becomes valid. If the state is legal, the algorithm moves on to the next unfilled square and repeats the process. If there comes a point where every potential value for an unfilled square is illegal then backtracking occurs and the algorithm reverts earlier decisions until progress can be made.
+The algorithm uses an iterative backtracking approach that cycles through potential solutions until the puzzle reaches a state where it is valid and fully completed. Starting with the first unfilled square, the value is incremented and the _isValid_ function checks that this state is allowed. If the state is illegal then the value is incremented again until it becomes valid. If the state is legal, the algorithm moves on to the next unfilled square and repeats the process. If there comes a point where every potential value for an unfilled square is illegal then backtracking occurs and the algorithm reverts earlier decisions until progress can be made. The _isComplete_ function is responsible for detecting when the puzzle has been completed and the algorithm continues to iterate until the conditions of this function have been met.
 
 ## Evaluation
 
+The end product produces a solution is a short time frame of just a few seconds and I am very pleased with this result. If I were to revisit this project I would like to experiment with alternative approaches to backtracking. 
