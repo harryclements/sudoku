@@ -24,3 +24,9 @@ Takes a list as input and checks for duplicate values, returning this as a Boole
 
 Prints out a given puzzle grid to the console. This functionns prints out the incomplete grid at the beginning and then the completed version at the end. However, it was also useful for the testing process.
 
+## Algorithm
+
+The algorithm uses an iterative backtracking approach that cycles through potential solutions until the puzzle reaches a state where it is valid and fully completed. Starting with the first unfilled square, the value is incremented and the _isValid_ function checks that this state is allowed. If the state is illegal then the value is incremented again until it becomes valid. If the state is legal, the algorithm moves on to the next unfilled square and repeats the process. If there comes a point where every potential value for an unfilled square is illegal then backtracking occurs and the algorithm reverts earlier decisions until progress can be made.
+
+## Evaluation
+
