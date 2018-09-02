@@ -8,3 +8,8 @@ A program that makes use of a brute force backtracking algorithm to solve 9x9 Su
 
 The following functions are used:
 
+- isComplete
+- isValid
+- duplicatesExist
+- showGrid
+
