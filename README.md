@@ -10,17 +10,17 @@ The following functions are used:
 
 ### _isComplete_
 
-checks if the puzzle is complete and returns this as a Boolean.
+Checks if the puzzle is complete and returns this as a Boolean.
 
 ### _isValid_
 
-checks if the current puzzle state is valid and returns this as a Boolean.
+Looks at the contents of each row, column anf box in the puzzle and uses the _duplicatesExist_ function to check if the current puzzle state is valid, returning a Boolean.
 
 ### _duplicatesExist_
 
-takes a list and checks for duplicates, returning this as a Boolean.
+Takes a list as input and checks for duplicate values, returning this as a Boolean.
 
 ### _showGrid_
 
-prints out a grid to the console.
+Prints out a given puzzle grid to the console. This functionns prints out the incomplete grid at the beginning and then the completed version at the end. However, it was also useful for the testing process.
 
