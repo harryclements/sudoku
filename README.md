@@ -9,11 +9,18 @@ A program that makes use of a brute force backtracking algorithm to solve 9x9 Su
 The following functions are used:
 
 ### _isComplete_
+
 checks if the puzzle is complete and returns this as a Boolean.
+
 ### _isValid_
+
 checks if the current puzzle state is valid and returns this as a Boolean.
+
 ### _duplicatesExist_
+
 takes a list and checks for duplicates, returning this as a Boolean.
+
 ### _showGrid_
+
 prints out a grid to the console.
 
