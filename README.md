@@ -2,4 +2,4 @@
 
 ## Outline
 
-A 9x9 Sudoku Solver that makes use of a brute force backtracking algorithm and produces a solution in a matter of seconds.
+A program that makes use of a brute force backtracking algorithm to solve 9x9 Sudoku puzzles, finding the solution in a matter of seconds. A modular approach was taken to improve maintainability and readibility of code and 
